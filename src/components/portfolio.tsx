@@ -59,9 +59,11 @@ export const Portfolio: React.FC<{ posts: Post[] }> = ({ posts }) => {
             Portfolio
           </h2>
           <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
-            Picked up my best works ever
+            機械系エンジニアですがソフトウェアの勉強中です。
             <br />
-            Please see my works from the links if you like
+            しょぼいですがポートフォリオを作りました。
+            <br />
+            内容を充実していけるようにがんばります。
           </p>
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-12 xl:gap-16">

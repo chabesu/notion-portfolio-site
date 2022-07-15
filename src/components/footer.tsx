@@ -5,7 +5,7 @@ export const Footer = () => {
         <div className="flex flex-col items-center border-t pt-6">
           <div className="flex gap-4">
             <a
-              href="https://twitter.com/steelydylan"
+              href="https://twitter.com/ChabesuB"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100"
@@ -23,7 +23,7 @@ export const Footer = () => {
             </a>
 
             <a
-              href="https://github.com/steelydylan"
+              href="https://github.com/chabesu"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100"

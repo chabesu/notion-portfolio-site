@@ -7,23 +7,23 @@ const contacts = [
   {
     Comp: Twitter,
     alt: 'twitter icon',
-    link: 'https://twitter.com/steelydylan',
+    link: 'https://twitter.com/ChabesuB',
   },
   {
     Comp: GitHub,
     alt: 'github icon',
-    link: 'https://github.com/steelydylan',
+    link: 'https://github.com/chabesu',
   },
   // {
   //   Comp: LinkedIn,
   //   alt: 'linkedin icon',
   //   link: 'https://www.linkedin.com/in/jj-kasper-0b5392166/',
   // },
-  {
-    Comp: Envelope,
-    alt: 'envelope icon',
-    link: 'mailto:ess_president@me.com?subject=Notion Blog',
-  },
+  // {
+  //   Comp: Envelope,
+  //   alt: 'envelope icon',
+  //   link: 'mailto:ess_president@me.com?subject=Notion Blog',
+  // },
 ]
 
 export default function Contact() {
@@ -38,19 +38,19 @@ export default function Contact() {
         <div className="flex flex-col items-center">
           <div className="w-24 md:w-32 h-24 md:h-32 bg-gray-100 rounded-full overflow-hidden shadow-lg mb-2 md:mb-4">
             <img
-              src="/avatar.jpeg"
+              src="/avatar.png"
               loading="lazy"
-              alt="steelydylan"
+              alt="chabesu"
               className="w-full h-full object-cover object-center"
             />
           </div>
 
           <div>
             <div className="text-indigo-500 md:text-lg font-bold text-center">
-              steelydylan
+              Chabesu
             </div>
             <p className="text-gray-500 text-sm md:text-base text-center mb-3 md:mb-4">
-              Frontend Engineer
+              Mechanical Engineer
             </p>
 
             <div className="flex justify-center">
