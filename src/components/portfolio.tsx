@@ -63,8 +63,6 @@ export const Portfolio: React.FC<{ posts: Post[] }> = ({ posts }) => {
             <br />
             しょぼいですがポートフォリオを作りました（現状、ほぼ自己紹介。）
             <br />
-            内容を充実していけるようにがんばります。
-            <br />
             詳細のプロフィールは
             <a
               href="https://record.jp/chabesu"
@@ -75,6 +73,8 @@ export const Portfolio: React.FC<{ posts: Post[] }> = ({ posts }) => {
               こちら
             </a>
             に書いています。
+            <br />※ 画像が表示されない場合は<strong>再読み込み</strong>
+            をしてください。
           </p>
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-12 xl:gap-16">
