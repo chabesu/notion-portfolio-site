@@ -61,7 +61,7 @@ export const Portfolio: React.FC<{ posts: Post[] }> = ({ posts }) => {
           <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
             機械系エンジニアですがソフトウェアの勉強中です。
             <br />
-            しょぼいですがポートフォリオを作りました（現状、ほぼ自己紹介。）
+            しょぼいですがポートフォリオを作りました。
             <br />
             詳細のプロフィールは
             <a
@@ -73,8 +73,6 @@ export const Portfolio: React.FC<{ posts: Post[] }> = ({ posts }) => {
               こちら
             </a>
             に書いています。
-            <br />※ 画像が表示されない場合は<strong>再読み込み</strong>
-            をしてください。
           </p>
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-12 xl:gap-16">

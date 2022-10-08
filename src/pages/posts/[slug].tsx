@@ -148,15 +148,7 @@ export default function Post({ page, blocks }) {
   )
 }
 
-export const getStaticPaths = async () => {
-  const posts = await getDatabase(process.env.NOTION_DATABASE_ID as string)
-  return {
-    paths: posts.map((post) => ({ params: { slug: post.slug, id: post.id } })),
-    fallback: true,
-  }
-}
-
-export const getStaticProps = async (context) => {
+export const getServerSideProps = async (context) => {
   const { slug } = context.params
   const posts = await getDatabase(process.env.NOTION_DATABASE_ID as string)
   const post = posts.find((p) => p.slug === slug)
@@ -206,6 +198,6 @@ export const getStaticProps = async (context) => {
       page,
       blocks: blocksWithChildDatabase,
     },
-    revalidate: 1,
+    // revalidate: 1,
   }
 }

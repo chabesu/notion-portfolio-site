@@ -1,7 +1,7 @@
 import { Portfolio } from '../components/portfolio'
 import { getDatabase } from '../lib/notion'
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const posts = await getDatabase(process.env.NOTION_DATABASE_ID as string, {
     sorts: [
       {
@@ -14,7 +14,7 @@ export async function getStaticProps() {
     props: {
       posts,
     },
-    revalidate: 1,
+    // revalidate: 1,
   }
 }
 
