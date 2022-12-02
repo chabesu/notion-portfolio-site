@@ -59,20 +59,14 @@ export const Portfolio: React.FC<{ posts: Post[] }> = ({ posts }) => {
             Portfolio
           </h2>
           <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
-            機械系エンジニアですがソフトウェアの勉強中です。
+            エンジニア（機械）ですがソフトウェアの勉強中です。
+            <br />
+            Notion が好きです。
             <br />
             しょぼいですがポートフォリオを作りました。
             <br />
-            詳細のプロフィールは
-            <a
-              href="https://record.jp/chabesu"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100"
-            >
-              こちら
-            </a>
-            に書いています。
+            ここに自分の作ったサービスやアプリを載せるのが目標です。
+            <br />
           </p>
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-12 xl:gap-16">
